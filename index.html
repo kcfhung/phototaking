@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Taking</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Lora&display=swap" rel="stylesheet">
+	
+	
 
     <style>
         body {
             text-align: center;
-            font-family: 'Inter', sans-serif;
+            font-family: 'Lora', sans-serif;
+			
+			line-height:1.5;
+			font-size: 16px;
             padding-top: 10px;
             margin: 0;
         }
@@ -20,6 +25,13 @@
 			margin: 0 auto;
 			padding:10px;
 		}
+		
+		
+		.img_div_portrait{
+			max-width: 500px;
+			padding:0px;
+		}
+		
         img {
             width: 100%;
         }
@@ -28,7 +40,7 @@
             font-size: 80px;
             font-weight: bold;
             font-family: 'Inter', sans-serif;
-			line-height: 70px;
+			line-height: 1.2;
         }
 
         table {
@@ -40,8 +52,36 @@
     </style>
 </head>
 <body>
+
+    <table style="" cellspacing="0" cellpadding="0">
+        <tr valign="top">
+            <td style="text-align:left; padding-right:20px; width:50%;">
+				
+				<div class="img_div_portrait">
+					<img src="images/2023/jacaranda.jpg" alt="Fremantle">
+				</div>
+	
+            </td>
+            <td style="text-align:left;">
+                <div class="title">Jacaranda</div>
+				<div style="font-weight: 200;">2023-11-19</div>
+				<div style="height:20px;"></div>
+				<div class="">
+					The Jacaranda in front of my house stands as a majestic sentinel, its branches adorned with clusters of vibrant purple blooms that paint the sky with a mesmerizing hue during springtime.
+					
+					<p>Its graceful silhouette casts a soothing shade, inviting passersby to linger under its canopy and bask in its ephemeral beauty. Throughout the year, its lush foliage whispers stories of resilience and quiet strength, making it an enchanting presence in your neighborhood.</p>
+					
+				</div>
+			</td>
+        </tr>
+    </table>
+	
+
+
+    <div style="height:50px;"></div>
+	
 	<div class="img_div">
-		<img src="images/fremantle.jpg" alt="Fremantle">
+		<img src="images/2023/fremantle.jpg" alt="Fremantle">
 	</div>
     
     <table style="" cellspacing="0" cellpadding="0">
@@ -51,9 +91,11 @@
 				<div style="font-weight: 200;">2023-10-14</div>
             </td>
             <td style="text-align:left;">
-			Fremantle Harbour is a historic and vibrant maritime gateway that has played a pivotal role in the region's development and continues to be a hub of economic and cultural activity. Nestled at the mouth of the Swan River, Fremantle Harbour is an integral part of the port city of Fremantle and serves as one of Australia's most significant and busiest ports.
+			Fremantle Harbour is a historic and vibrant maritime gateway that has played a pivotal role in the region's development and continues to be a hub of economic and cultural activity. Nestled at the mouth of the Swan River, Fremantle Harbour is an integral part of the port city of Fremantle and serves as one of Australia's most significant and busiest ports.	
 			</td>
         </tr>
     </table>
+
+    <div style="height:100px;"></div>
 </body>
 </html>

@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.left-menu {
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.left-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-menu li {
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.left-menu li:hover {
+  background-color: #eeeeee;
+}
